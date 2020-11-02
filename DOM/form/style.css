@@ -1,0 +1,67 @@
+#container
+{
+   position: absolute;
+   height: 300px;
+   width: 200px;
+    background-color: #e67e22;
+    text-align: center;
+}
+form
+{
+    position:absolute;
+    display: block;
+    
+}
+
+label
+{
+    color: greenyellow;
+    opacity: 0.8;
+    font-family: 'Segoe UI';
+    display: inline;
+    text-align: center;
+}
+.alert-label
+{
+    color: red;
+    opacity: 0.8;
+    font-family: Helvetica;
+    margin-top: 5px;
+    text-align: center;
+}
+#input-name
+{
+   
+    margin-top: 10px;
+
+}
+#input-phone
+{
+   
+    margin-top: 10px;
+
+}
+#input-birthday
+{
+   
+    margin-top: 10px;
+
+}
+#input-salary
+{
+   
+    margin-top: 10px;
+
+}
+#submit
+{
+    margin-top: 10px;
+    background-color:#34495e;
+    opacity: 0.7;
+    color: greenyellow;
+    cursor: pointer;
+}
+#submit:hover
+{
+    opacity: 1.0;
+}

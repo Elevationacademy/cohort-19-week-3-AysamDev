@@ -1,0 +1,91 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: beige;
+}
+#chat{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15fr 1fr;
+    grid-template-areas: 
+    "f c"
+    "f i";
+}
+
+#friends{
+    grid-area: f;
+    display: grid;
+    background-color:palevioletred;
+    padding-left: 15px;
+    align-items: center;
+    
+   
+}
+
+#chatbox{
+    grid-area: c;
+    display: grid;
+    align-items:flex-end;
+    justify-items: flex-end;
+    padding-left: 50px;
+
+}
+
+#input{
+    grid-area: i;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color:violet;
+}
+
+.friends-items
+{
+    background-color: wheat;
+    padding-left: 20px;
+    display: grid;
+    opacity: 0.8;
+    margin-right: 10px;
+    color: black;
+    border: wheat solid 5px;
+}
+.text-container-left{
+    justify-self: left;
+    background-color: lightslategray;
+    border: lightslategray solid 5px;
+    align-items:right;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    color: black;
+}
+.text-container-right{
+    justify-self: right;
+    display: grid;
+    background-color: lightgreen;
+    border: lightgreen solid 5px;
+    margin-right: 10px;
+    margin-bottom: 20px ;
+    grid-template-columns: 3fr 1fr;
+    color: black;
+}
+.time{
+    display: grid;
+    align-self: end;
+    justify-self: end;
+    font-size: smaller;
+}
+.text
+{
+    display: grid;
+    font-size: large;
+    align-self:start;
+    justify-self: start;
+   
+}
+#sendButton
+{
+    display: grid;
+    text-align: center;
+    align-self: center;
+    background-color: violet;
+}

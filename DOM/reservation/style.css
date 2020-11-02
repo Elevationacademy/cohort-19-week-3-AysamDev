@@ -1,0 +1,28 @@
+form
+{
+    position:absolute;
+    background-color: cyan;
+    width: 200px;
+    height: 100px;
+    display: inline;
+    margin:auto;
+}
+
+label
+{
+    
+    display: block;
+    text-align: center;
+}
+#input-name
+{
+   
+    margin:auto;
+    display: block;
+}
+#checkRev
+{
+    margin:auto;
+    display: block;
+}
+
